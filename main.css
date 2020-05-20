@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.title{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.box{
+	width: 100%;
+}
+
+/**for mobile**/
+@media (max-width: 767px){
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+#heading{
+	border: 2px solid white;
+    top: 0;
+    right: 0;
+    width:35%;
+    text-align:center;
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+}
+.box{
+	width: 100%;
+}
+.boxes{
+	background-color: lightgray;
+	margin: 40px;
+	border: 3px solid black;
+}
+.box3{
+	background-color: lightgray;
+	margin: 40px;
+	border: 3px solid black;
+}
+#para{	
+	height: 42vh;
+	padding-top: 15%;
+	margin: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+}
+
+
+
+/**for tablet**/
+@media (min-width: 768px) and (max-width: 991px){
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+#heading{
+	border: 2px solid white;
+    top: 0;
+    right: 0;
+    width:35%;
+    text-align:center;
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.box{
+	width: 100%;
+}
+.boxes{
+	background-color: lightgray;
+	width: 47.39%;
+	margin: 10px;
+	float: left;
+	border: 3px solid black;
+}
+.box3{
+	background-color: lightgray;
+	width: 97.25%;
+	margin: 10px;
+	float: left;
+	border: 3px solid black;
+}
+#para{
+		
+	height: 35vh;
+	padding-top: 10%;
+	margin: 10px;
+	font-size: 18px;
+	text-align: justify;
+}
+}
+
+
+
+
+/**for desktop**/
+@media (min-width: 992px){
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+#heading{
+	border: 2px solid white;
+    top: 0;
+    right: 0;
+    width: 35%;
+    text-align:center;
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+}
+.box{
+	width: 100%;
+}
+
+.boxes{
+	background-color: lightgray;
+	width: 31.31%;
+	margin: 10px;
+	border: 3px solid black;
+	float: left;
+}
+.box3{
+	background-color: lightgray;
+	width: 31.31%;
+	margin: 10px;
+	border: 3px solid black;
+	float: left;
+}
+#para{
+		
+	height: 32vh;
+	padding-top: 10%;
+	margin: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+}
+
